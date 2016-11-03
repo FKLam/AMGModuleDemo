@@ -1,0 +1,6 @@
+framework module AMGModuleDemo {
+  umbrella header "AMGModuleDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
