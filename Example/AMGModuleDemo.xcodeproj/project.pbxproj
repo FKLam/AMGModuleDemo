@@ -14,8 +14,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* AMGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AMGAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* AMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* AMGViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		995A7FC11DCB325C009B1150 /* AMGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 995A7F991DCB325C009B1150 /* AMGAppDelegate.m */; };
+		995A7FC21DCB325C009B1150 /* AMGModuleDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995A7F9A1DCB325C009B1150 /* AMGModuleDemo-Info.plist */; };
+		995A7FC31DCB325C009B1150 /* AMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995A7F9D1DCB325C009B1150 /* AMGViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +48,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* AMGModuleDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMGModuleDemo-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* AMGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMGAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* AMGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMGAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* AMGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMGViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* AMGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMGViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* AMGModuleDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMGModuleDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,6 +60,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		879AD8C53D99BE4F43BE046D /* Pods_AMGModuleDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMGModuleDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		881728EE3CD6F930B397D362 /* Pods-AMGModuleDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGModuleDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMGModuleDemo_Example/Pods-AMGModuleDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		995A7F981DCB325C009B1150 /* AMGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGAppDelegate.h; sourceTree = "<group>"; };
+		995A7F991DCB325C009B1150 /* AMGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGAppDelegate.m; sourceTree = "<group>"; };
+		995A7F9A1DCB325C009B1150 /* AMGModuleDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AMGModuleDemo-Info.plist"; sourceTree = "<group>"; };
+		995A7F9B1DCB325C009B1150 /* AMGModuleDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AMGModuleDemo-Prefix.pch"; sourceTree = "<group>"; };
+		995A7F9C1DCB325C009B1150 /* AMGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViewController.h; sourceTree = "<group>"; };
+		995A7F9D1DCB325C009B1150 /* AMGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGViewController.m; sourceTree = "<group>"; };
 		A5D479463AB59C93932FCD32 /* Pods-AMGModuleDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGModuleDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMGModuleDemo_Tests/Pods-AMGModuleDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A759EEFAAC0DCD1CDB5B927E /* AMGModuleDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMGModuleDemo.podspec; path = ../AMGModuleDemo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,11 +133,14 @@
 		6003F593195388D20070C39A /* Example for AMGModuleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* AMGAppDelegate.h */,
-				6003F59D195388D20070C39A /* AMGAppDelegate.m */,
+				995A7F971DCB325C009B1150 /* AppMain */,
+				995A7FAC1DCB325C009B1150 /* HomeModule */,
+				995A7FA51DCB325C009B1150 /* CategoryModule */,
+				995A7FB31DCB325C009B1150 /* OnLookModule */,
+				995A7F9E1DCB325C009B1150 /* CarModule */,
+				995A7FBA1DCB325C009B1150 /* ProfileModule */,
+				995A7FC41DCB32A7009B1150 /* BaseModule */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* AMGViewController.h */,
-				6003F5A6195388D20070C39A /* AMGViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -180,6 +186,301 @@
 				6EB682889DABCD2A758EFD9C /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		995A7F971DCB325C009B1150 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				995A7F981DCB325C009B1150 /* AMGAppDelegate.h */,
+				995A7F991DCB325C009B1150 /* AMGAppDelegate.m */,
+				995A7F9A1DCB325C009B1150 /* AMGModuleDemo-Info.plist */,
+				995A7F9B1DCB325C009B1150 /* AMGModuleDemo-Prefix.pch */,
+				995A7F9C1DCB325C009B1150 /* AMGViewController.h */,
+				995A7F9D1DCB325C009B1150 /* AMGViewController.m */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		995A7F9E1DCB325C009B1150 /* CarModule */ = {
+			isa = PBXGroup;
+			children = (
+				995A7F9F1DCB325C009B1150 /* Actions */,
+				995A7FA01DCB325C009B1150 /* Category */,
+				995A7FA11DCB325C009B1150 /* Controller */,
+				995A7FA21DCB325C009B1150 /* Model */,
+				995A7FA31DCB325C009B1150 /* Service */,
+				995A7FA41DCB325C009B1150 /* View */,
+			);
+			path = CarModule;
+			sourceTree = "<group>";
+		};
+		995A7F9F1DCB325C009B1150 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		995A7FA01DCB325C009B1150 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		995A7FA11DCB325C009B1150 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		995A7FA21DCB325C009B1150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		995A7FA31DCB325C009B1150 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		995A7FA41DCB325C009B1150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		995A7FA51DCB325C009B1150 /* CategoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				995A7FA61DCB325C009B1150 /* Actions */,
+				995A7FA71DCB325C009B1150 /* Category */,
+				995A7FA81DCB325C009B1150 /* Controller */,
+				995A7FA91DCB325C009B1150 /* Model */,
+				995A7FAA1DCB325C009B1150 /* Service */,
+				995A7FAB1DCB325C009B1150 /* View */,
+			);
+			path = CategoryModule;
+			sourceTree = "<group>";
+		};
+		995A7FA61DCB325C009B1150 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		995A7FA71DCB325C009B1150 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		995A7FA81DCB325C009B1150 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		995A7FA91DCB325C009B1150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		995A7FAA1DCB325C009B1150 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		995A7FAB1DCB325C009B1150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		995A7FAC1DCB325C009B1150 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				995A7FAD1DCB325C009B1150 /* Actions */,
+				995A7FAE1DCB325C009B1150 /* Category */,
+				995A7FAF1DCB325C009B1150 /* Controller */,
+				995A7FB01DCB325C009B1150 /* Model */,
+				995A7FB11DCB325C009B1150 /* Service */,
+				995A7FB21DCB325C009B1150 /* View */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		995A7FAD1DCB325C009B1150 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		995A7FAE1DCB325C009B1150 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		995A7FAF1DCB325C009B1150 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		995A7FB01DCB325C009B1150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		995A7FB11DCB325C009B1150 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		995A7FB21DCB325C009B1150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		995A7FB31DCB325C009B1150 /* OnLookModule */ = {
+			isa = PBXGroup;
+			children = (
+				995A7FB41DCB325C009B1150 /* Actions */,
+				995A7FB51DCB325C009B1150 /* Category */,
+				995A7FB61DCB325C009B1150 /* Controller */,
+				995A7FB71DCB325C009B1150 /* Model */,
+				995A7FB81DCB325C009B1150 /* Service */,
+				995A7FB91DCB325C009B1150 /* View */,
+			);
+			path = OnLookModule;
+			sourceTree = "<group>";
+		};
+		995A7FB41DCB325C009B1150 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		995A7FB51DCB325C009B1150 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		995A7FB61DCB325C009B1150 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		995A7FB71DCB325C009B1150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		995A7FB81DCB325C009B1150 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		995A7FB91DCB325C009B1150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		995A7FBA1DCB325C009B1150 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				995A7FBB1DCB325C009B1150 /* Actions */,
+				995A7FBC1DCB325C009B1150 /* Category */,
+				995A7FBD1DCB325C009B1150 /* Controller */,
+				995A7FBE1DCB325C009B1150 /* Model */,
+				995A7FBF1DCB325C009B1150 /* Service */,
+				995A7FC01DCB325C009B1150 /* View */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		995A7FBB1DCB325C009B1150 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		995A7FBC1DCB325C009B1150 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		995A7FBD1DCB325C009B1150 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		995A7FBE1DCB325C009B1150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		995A7FBF1DCB325C009B1150 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		995A7FC01DCB325C009B1150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		995A7FC41DCB32A7009B1150 /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModule;
 			sourceTree = "<group>";
 		};
 		AEA223E5F6112DAABACE127C /* Pods */ = {
@@ -279,6 +580,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				995A7FC21DCB325C009B1150 /* AMGModuleDemo-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,9 +692,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* AMGAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* AMGViewController.m in Sources */,
+				995A7FC11DCB325C009B1150 /* AMGAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				995A7FC31DCB325C009B1150 /* AMGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
